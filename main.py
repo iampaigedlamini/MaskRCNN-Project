@@ -10,7 +10,7 @@ colors = np.random.randint(0, 255, (80, 3))
 #print(colors)
 
 # Load image
-img = cv2.imread("ny.jpeg")
+img = cv2.imread("ny.jpeg") # change image and extension
 height, width, _= img.shape
 
 # Create black image
